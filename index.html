@@ -1,43 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta name="description" content="Frontend Mentor - Blog preview card" />
+    <meta name="keywords" content="HTML, CSS" />
+    <meta name="author" content="Rebecca Padgett" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Blog preview card</title>
+    <!-- !css -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
 
-<head>
-  <meta name="description" content="Frontend Mentor - Blog preview card">
-  <meta name="keywords" content="HTML, CSS">
-  <meta name="author" content="Rebecca Padgett">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <title>Frontend Mentor | Blog preview card</title>
-  <!-- !css -->
-  <link rel="stylesheet" href="./assets/css/style.css">
-</head>
-
-<body class="bg-primary-400">
-  <main class="card bg-neutral-100">
-    <h1 class="visually-hidden">Blog preview card </h1>
-    <figure class="card__banner">
-      <img src="./assets/images/illustration-article.svg" width="336" height="201" alt="" aria-hidden="true">
-      <figcaption class="visually-hidden">black and yellow illustration</figcaption>
-    </figure>
-    <div class="card__text-group grid">
-      <a href="#" class="card__btn bg-primary-400 text-neutral-300">Learning</a>
-      <p> Published 21 Dec 2023</p>
-      <h2 class="card__title"> HTML & CSS foundations</h2>
-      <p class="card__description text-neutral-200">
-        These languages are the backbone of every website, defining structure,
-        content, and presentation.
-      </p>
-      <div class="flex">
-        <img src="./assets/images/image-avatar.webp" width="30" height="30" alt="headshot of Grreg Hooper">
-        <p class="avatar__name">Greg Hooper</p>
+  <body class="bg-primary-400">
+    <main class="card bg-neutral-100">
+      <h1 class="visually-hidden">Blog preview card</h1>
+      <figure class="card__banner">
+        <img
+          src="./assets/images/illustration-article.svg"
+          width="336"
+          height="201"
+          alt=""
+          aria-hidden="true"
+        />
+        <figcaption class="visually-hidden">
+          black and yellow illustration
+        </figcaption>
+      </figure>
+      <div class="card__text-group grid">
+        <a href="#" class="card__btn bg-primary-400 text-neutral-300">
+          Learning
+        </a>
+        <p>
+          Published
+          <time datetime="2023-12-21">21 Dec 2023</time>
+        </p>
+        <h2 class="card__title">HTML & CSS foundations</h2>
+        <p class="card__description text-neutral-200">
+          These languages are the backbone of every website, defining structure,
+          content, and presentation.
+        </p>
+        <div class="flex">
+          <img
+            src="./assets/images/image-avatar.webp"
+            width="30"
+            height="30"
+            alt="headshot of Grreg Hooper"
+          />
+          <p class="avatar__name">Greg Hooper</p>
+        </div>
       </div>
-    </div>
-  </main>
-  <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Rebecca Padgett</a>.
-  </footer>
-</body>
-
+    </main>
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Rebecca Padgett</a>.
+    </footer>
+  </body>
 </html>
