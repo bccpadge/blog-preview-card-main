@@ -50,3 +50,4 @@ Users should be able to:
 <a href="https://www.linkedin.com/in/rebecca-padgett23">
 <img src="https://img.shields.io/badge/Linkedin-004182?style=for-the-badge&logo=linkedin&logoColor=white">
 </a>
+</p>
