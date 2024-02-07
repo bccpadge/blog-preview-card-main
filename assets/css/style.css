@@ -138,7 +138,6 @@ body {
 }
 
 /* !card styles */
-
 .card__banner img {
   border-radius: 0.9375rem;
 }
@@ -185,6 +184,10 @@ body {
 
 .card__description {
   font-size: 0.9375rem;
+}
+
+.avatar {
+  align-items: center;
 }
 
 .avatar__name {
