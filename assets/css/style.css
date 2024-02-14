@@ -17,7 +17,7 @@
 /* !reset */
 /* !Box sizing rules */
 *,
-*:before,
+*::before,
 *::after {
   box-sizing: border-box;
 }
@@ -100,7 +100,6 @@ select {
   outline: 3px dotted hsl(var(--clr-neutral-300));
   outline-offset: 5px;
 }
-
 
 /* !general styles */
 body {
