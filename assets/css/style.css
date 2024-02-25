@@ -139,6 +139,7 @@ body {
 /* !card styles */
 .card__banner img {
   border-radius: 0.9375rem;
+  height: auto;
 }
 
 .card {
